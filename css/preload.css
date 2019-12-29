@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.preload{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100vh;
+	/*background-image:url('images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;*/
+	background-color: #212d74;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    transition: opacity 0.5s ease;
+    z-index:2000;
+}
+.preload::before{
+	content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.65);
+}
+.preload-finish{
+	opacity:0;
+	pointer-events: none;
+}
+.logo{
+	align-self: center;
+	margin-top: 13%;
+	width:550px;
+    z-index: 1000;
+    animation: logo 3s ease-in-out infinite alternate; 
+   
+    
+}
+@keyframes logo{
+	from{
+		transform: translateY(-30px);
+	}
+	to{
+		transform: translateY(50px);
+	}
+}
