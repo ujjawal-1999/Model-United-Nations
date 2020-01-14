@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/icon" href="images/logo_white.png">
+	<link href="fonts/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap1.min.css">
+	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/daterangepicker.css">
+</head>
+<body style="background:rgba(35, 66, 113, 0.9);">
+
+        <div class="bg-contact2">
+                <div class="container-contact2">
+                    <div class="wrap-contact2">
+                        <form class="contact2-form validate-form">
+                            <span class="contact2-form-title">
+                                Register for International Press
+                            </span>
+                            <div class="form-row no-gutters">
+                                <div class="form-group col-md-4">
+                                    <div class="wrap-input2 validate-input " data-validate="Name is required" style="">
+                                        <input class="input2" type="text" name="name">
+                                        <span class="focus-input2" data-placeholder="First Name"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <div class="wrap-input2"  style="">
+                                        <input class="input2" type="text" name="name">
+                                        <span class="focus-input2" data-placeholder="Middle Name"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <div class=" wrap-input2 validate-input " data-validate="Name is required" style="">
+                                        <input class="input2" type="text" name="name">
+                                        <span class="focus-input2" data-placeholder="Last Name"></span>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="wrap-input2 validate-input" data-validate="Gender is Required">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search input-2">
+                                        <select name="gender" style="width:100%">
+                                            <option disabled="disabled" selected="selected">Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+        
+        
+                            <div class="wrap-input2 validate-input dob" data-validate="Birth Date is Required" data-provide="datepicker">
+                                <div class="input-group">
+                                    <input class="input--style-1 js-datepicker input-2" type="text" name="birthday"placeholder="date of birth" style="width:100%;background:transparent;color:#000">
+                                    <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                                <input class="input2" type="text" name="email">
+                                <span class="focus-input2" data-placeholder="EMAIL"></span>
+                            </div>
+                            <div class="wrap-input2 validate-input" data-validate = "Phone Number Required">
+                                <input class="input2" type="text" name="contact">
+                                <span class="focus-input2" data-placeholder="Contact Number"></span>
+                            </div>
+                            
+                                <h2 style="margin:20px 0px">Address</h2>
+                                <div class="wrap-input2 validate-input" data-validate = "Address is required">
+                                    <input class="input2" type="text" name="Address1">
+                                    <span class="focus-input2" data-placeholder="Address Line 1"></span>
+                                </div>
+                                <div class="wrap-input2 validate-input" data-validate = "Address is required">
+                                    <input class="input2" type="text" name="Address1">
+                                    <span class="focus-input2" data-placeholder="Address Line 2"></span>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-4">
+                                        <div class="wrap-input2 validate-input " data-validate="State is required" style="">
+                                            <input class="input2" type="text" name="State">
+                                            <span class="focus-input2" data-placeholder="State"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <div class="wrap-input2"  style="">
+                                            <input class="input2" type="text" name="City">
+                                            <span class="focus-input2" data-placeholder="City"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <div class=" wrap-input2 validate-input " data-validate="Pincode is required" style="">
+                                            <input class="input2" type="text" name="pincode">
+                                            <span class="focus-input2" data-placeholder="Pincode"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 style="margin:20px 0px">Educational Details</h2>
+                                <div class=" wrap-input2 validate-input " data-validate="Required" style="">
+                                    <input class="input2" type="text" name="College">
+                                    <span class="focus-input2" data-placeholder="Institue Name"></span>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-sm-6">
+                                        <div class=" wrap-input2 validate-input " data-validate="Required" style="">
+                                            <input class="input2" type="text" name="Course">
+                                            <span class="focus-input2" data-placeholder="Course Name"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <div class=" wrap-input2 validate-input " data-validate="Required" style="">
+                                            <input class="input2" type="text" name="Semester">
+                                            <span class="focus-input2" data-placeholder="Semester"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" wrap-input2 validate-input " data-validate="Required" style="">
+                                    <label style="font-size:16px">Upload your Resume</label>
+                                    <input class="input2 filec" type="file" name="Semester" value="Upload your Resume" accept=".pdf"placeholder="Resume" style="background:transparent;border:none;">
+                                            <span class="focus-input2" data-placeholder=""></span>
+                                </div>
+                                <h2 style="margin:20px 0px">NITS MUN</h2>
+                    
+                                    <div class="wrap-input2 validate-input" data-validate="Committee is Required">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search input-2">
+                                        <select name="committee" style="width:100%">
+                                            <option disabled="disabled" selected="selected">Committee</option>
+                                            <option>1st committee</option>
+                                            <option>2nd committee</option>
+                                            <option>Other</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                                
+                                <div class="container-contact2-form-btn" style="margin-top:30px">
+                                    <div class="wrap-contact2-form-btn">
+                                        <div class="contact2-form-bgbtn"></div>
+                                        <button class="contact2-form-btn">
+                                            Register
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+        <script src="js/register.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/select2.min.js"></script>
+		<script src="js/moment.min.js"></script>
+		<script src="js/daterangepicker.js"></script>
+		<script src="js/global.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-23581568-13');
+		</script>
+	</script>
+</body>
+</html>
