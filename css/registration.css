@@ -47,61 +47,6 @@ p,a
   *, *::before, *::after {
     box-sizing: border-box;
   }
-
-  /*.container-style{
-      width: 100%;
-  display: grid;
-  grid-template-columns: 0.5fr 1.3fr 3fr;
-  grid-template-rows: 100px;
-  justify-content: center;
-  align-items: center;
-  z-index: 100;*/
-  /* #90AFC5  #336B87* #763626*/
-
-  /*background-color:#212d74;
-  position: fixed;
-  box-shadow: 10px 10px 30px rgba(0,0,0,0.50);
-    }
-    .navbar-list{
-      display: flex;
-      justify-content: space-between;
-    }
-    .navbar-list{
-      list-style: none;
-    }
-    .navbar-list a{
-      color:white;
-      text-decoration: none;
-      outline:none;
-      font-size: 16px;
-      font-weight: bolder;
-      letter-spacing: 1.3px;
-      padding-right:30px;
-    }
-    .navbar-list a:hover{
-      border-bottom:2px solid lightblue;
-      border-top:2px solid lightblue;
-      transition: all 0.3s ease-in-out;
-    }
-    .tagline .tagline-style{
-      display: block;
-      font-weight: bolder;
-      font-size: 19px;
-      line-height: 1.2;
-      letter-spacing: 1.1px;
-      color:white;
-      word-spacing: 1.3px;
-    }
-    .tagline .tagline-base{
-      color:white;
-      display: block;
-      font-weight: bolder;
-      font-size: 17px;
-      line-height: 1.2;
-      letter-spacing: 1.2px;
-      word-spacing: 1.2px;
-    }*/
-
 .container-style{
     width: 100%;
 display: grid;
@@ -421,7 +366,7 @@ ul{
 }
 
 .company-info{
-  background:#212D74;
+  background:#343a40;
 }
 
 .company-info h3, .company-info ul{
@@ -430,7 +375,7 @@ ul{
 }
 
 .contact{
-  background:#212D74;
+  background:#343a40;
 }
 
 /* FORM STYLES */
@@ -454,17 +399,17 @@ ul{
 .contact form button, .contact form input, .contact form textarea{
   width:100%;
   padding:0.5em;
-  border:1px solid #336B87;
+  border:1px solid rgba(255, 87, 51, 0.84);
 }
 
 .contact form button{
-  background:#3949ab;
+  background:rgba(255, 87, 51, 0.84);
   border:0;
   text-transform: uppercase;
 }
 
 .contact form button:hover,.contact form button:focus{
-  background:#7890cd;
+  background:rgba(255, 87, 51, 0.84);
   color:#fff;
   outline:0;
   transition: background-color 2s ease-out;

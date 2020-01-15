@@ -140,7 +140,7 @@ body
   .navbar-list{
     overflow-x: hidden;
     position: absolute;
-   background: #212d74;
+   background: rgba(35, 66, 113, 0.9);
     background-size: cover;
     height: 50vh;
     width:112%;
@@ -155,7 +155,7 @@ body
   .navbar-list.open{
     clip-path: circle(1050px at 90% -20%);
     -webkit-clip-path:circle(1050px at 90% -20%);
-    z-index: 3;
+    z-index: 1000;
   }
   .tagline{
     display:none;
@@ -529,7 +529,7 @@ opacity:1;
 #aboutus p::first-letter
 {
   font-size:50px;
-  color:#212D74;
+  color:rgba(255, 87, 51, 0.84);
 }
 #aboutus p
 {
@@ -767,7 +767,7 @@ ul{
 
 .company-info{
   /*background:#212D74;*/
-  background:rgba(35, 66, 113, 0.9);
+  background:#343a40;
 }
 
 .company-info h3, .company-info ul{
@@ -777,7 +777,7 @@ ul{
 
 .contact{
   /*background:#212D74;*/
-  background:rgba(35, 66, 113, 0.9);
+  background:#343a40;
 }
 
 /* FORM STYLES */
@@ -806,14 +806,14 @@ ul{
 
 .contact form button{
   /*background:#3949ab;*/
-  background:rgba(35, 66, 113, 0.9);
-  border:2px solid #2a4b7d;
+  background:rgba(255, 87, 51, 0.84);
+  border:2px solid rgba(255, 87, 51, 0.84);
   /*border:0;*/
   text-transform: uppercase;
 }
 
 .contact form button:hover,.contact form button:focus{
-  background:#7890cd;
+  background:rgba(255, 87, 51, 0.84);
   color:#fff;
   outline:0;
   transition: background-color 2s ease-out;
