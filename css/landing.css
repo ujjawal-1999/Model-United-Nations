@@ -331,14 +331,6 @@ header
 
 @media(max-width:990px)
 {
-  .edition{
-    font-size:9rem!important;
-    line-height:7rem!important;
-    /*margin-top:calc(50vh - 8rem)!important;*/
-  }
-  .text1{
-    font-size:2rem!important;
-  }
 }
 
 .edition
@@ -386,15 +378,6 @@ header
 }
 @media(max-width: 568px)
 {
-  .text{
-    margin-top:4rem;
-  }
-.text,.text1
-{
-  font-size:3rem!important;
-  line-height:3rem!important;
-  
-}
 }
 .text ,.text1
 {

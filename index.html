@@ -39,6 +39,54 @@
       text-align:center;
     }
 }
+    .text{
+      text-align: center;
+        font-variant:small-caps;
+        color:#212f74;
+      font-size:16vh;
+      line-height:12vh;
+      margin-top:8%;
+    }
+    .text1{
+      text-align: center;
+      bottom:0px;
+      font-variant:small-caps;
+      color:#212d74;
+      font-size:14vh;
+      line-height: 12vh;
+    }
+    .edition{
+      text-align:center;
+      color:rgba(35, 66, 113, 0.9);
+      opacity:0.92;
+      font-size: 12vh;
+      line-height: 8vh;
+    }
+    @media (max-width: 768px){
+    .text{
+        text-align: center;
+        font-size:3rem;
+        margin-top:15%;
+        font-variant:small-caps;
+        line-height:3rem;
+        color:#212f74;
+    }
+    .text1{
+      text-align: center;
+      bottom:0px;
+      font-size:3rem;
+      font-variant:small-caps;
+      line-height:3rem;
+      color:#212d74;
+    }
+    .edition{
+      text-align:center;
+      font-size:3rem;
+      line-height:3rem;
+      color:rgba(35, 66, 113, 0.9);
+      opacity:0.92
+    }
+  }
   </style>
 </head>
 <body data-aos-easing="ease-in-sine" data-aos-duration="4000" style="background-color:#fff">
@@ -73,15 +121,16 @@
   </div>
 </div>
 </nav>  
- <div style="background-color:rgb(7, 6, 15);opacity:0.9;height:100vh;text-align:center;background-image:url('images/logo white1.png');width:100%;background-position:center;background-repeat:no-repeat;background-size:25vh;">
-<img src="images/incandlogo.png" style="text-align:center;width:150px;height:100px;padding-top:2%;">
-  <h5 style="text-align: center;color: #212D74">Presents</h5>
-<div class="d-flex  justify-content-center" style="min-height:100vh;">
+ <div style="background-color:rgb(7, 6, 15);opacity:0.9;height:100vh;background-image:url('images/logo white1.png');background-position:calc(50vw - 12.5vh) 10vh;background-repeat:no-repeat;background-size:30vh;margin:0;">
+<img src="images/incandlogo-white.png" style="width:180px;height:100px;padding-left: 4%;padding:25px;">
+<img src="images/nitslogo.png" style="float:right;width:80px;height:80px;margin-right:5%">
+<div class="d-flex  justify-content-center" style="min-height:100vh;margin-top:10vh;">
  <div>
-      <p  class="edition "style="text-align:center;font-size:30vh;line-height:30vh;color:rgba(35, 66, 113, 0.9);opacity:0.92">2020
+      
+      <p class="text" id="text" style="color:rgba(35, 66, 113, 0.9)"></p>
+      <p class="text1" id="text1" style="color:rgba(35, 66, 113, 0.9)"></p>
+      <p  class="edition" style="color:rgba(35, 66, 113, 0.9)">2020
         </p>
-      <p class="text" id="text" style="text-align: center;font-size:12vh;font-variant:small-caps;line-height:10vh;color:rgba(35, 66, 113, 0.9);"></p>
-      <p class="text1" id="text1" style="text-align: center;font-size:12vh;font-variant:small-caps;line-height:10vh;color:rgba(35, 66, 113, 0.9);"></p>
 </div>
 </div>
 </div>
