@@ -134,7 +134,7 @@ body
     top:50%;
     transform: translate(-5%,-50%);
     cursor:pointer;
-    right:5%;
+    right:0;
     z-index : 2 ;
   }
   .navbar-list{
@@ -143,12 +143,12 @@ body
    background: rgba(35, 66, 113, 0.9);
     background-size: cover;
     height: 50vh;
-    width:112%;
+    width:100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    clip-path: circle(100px at 90% -20%);
-    -webkit-clip-path:circle(100px at 90% -20%);
+    clip-path: circle(100px at 90% -32%);
+    -webkit-clip-path:circle(100px at 90% -32%);
     transition : all 1s ease-out;
     z-index:2;
   }
@@ -161,7 +161,7 @@ body
     display:none;
   }
   .container-style{
-    width:112%;
+    width:105%;
     position: initial;
   }
   .contact-style{
