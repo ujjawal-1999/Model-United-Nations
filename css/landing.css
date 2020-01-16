@@ -496,7 +496,7 @@ opacity:1;
 {
 animation-name:show;
 z-index: 0!important;
-color:#212d74!important;
+color:rgba(35, 66, 113, 0.9);
 animation-iteration-count: 1;
 animation-duration:4s;
 opacity:1;

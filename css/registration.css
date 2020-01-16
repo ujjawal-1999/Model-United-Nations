@@ -136,7 +136,7 @@ margin-top: -2px;
     .navbar-list{
       overflow-x: hidden;
       position: fixed;
-      background-color:#010e16;
+      background-color:rgba(35, 66, 113, 0.9);
       background-size: cover;
       height: 90vh;
       width:112%;

@@ -136,7 +136,7 @@ body {
   .navbar-list{
     overflow-x: hidden;
     position: absolute;
-   background:#212d74;
+   background:rgba(35, 66, 113, 0.9);
     background-size: cover;
     height: 50vh;
     width:112%;
