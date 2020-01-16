@@ -3,8 +3,8 @@ var i = 0;
 var j = 0;
 var txt = 'NIT Silchar';
 var txt1 = 'Model United Nations';
-var speed = 100;
-var speed1 = 100;
+var speed = 80;
+var speed1 = 85;
  window.onload = function typeWriter() {
    $('.text').addClass("Typed");
   if (i < txt.length) {

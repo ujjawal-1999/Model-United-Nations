@@ -27,6 +27,18 @@
     {
       color: #fff;
     }
+    .mobile-view{
+      margin-left:10%;
+    }
+    @media screen and (max-width:768px){
+      .brand{
+      position: relative;
+      margin-left: 25%;
+    }
+    .text-view{
+      text-align:center;
+    }
+}
   </style>
 </head>
 <body data-aos-easing="ease-in-sine" data-aos-duration="4000" style="background-color:#fff">
@@ -249,7 +261,7 @@ place in February at NIT Silchar campus in 2020.
 
 
 
-<div class="row no-gutters countdown-container" style="margin-top:75px;background-color:rgba(255, 87, 51, 0.84);color:#fff;display:flex;height:40vh;align-items:center;">
+<div class="row no-gutters countdown-container" id="countdown-container" style="margin-top:75px;background-color:rgba(255, 87, 51, 0.84);color:#fff;display:flex;height:40vh;align-items:center;">
     <div class="col-md-2">
     </div>
     <div class="col-md-8">
@@ -318,7 +330,7 @@ place in February at NIT Silchar campus in 2020.
           <h3>
               UNITED NATIONS GENERAL ASSEMBLY</h3>
               <h4>Agendas:</h4><h5>1. Analysing political and economic causes of the ongoing crises and formulating policies to stabilize the same. Focus: Greece, Venezuela, Zimbabwe.<br>
-2. Reassessing the SDGs and affirming them with rigid viable goals and to check the viability of currently ongoing climate programmes.</h5>
+              2. Reassessing the SDGs and affirming them with rigid viable goals and to check the viability of currently ongoing climate programmes.</h5>
               <div class="row no-gutters">
                   <div class="col-sm-6 d-flex justify-content-center"><button type="button" style="outline:none;color:#212d74;margin-right:10px;background-color:#fff"
                      class="btn button-committee btn-control-no-border" data-container="body" data-toggle="popover" data-placement="bottom"
@@ -328,7 +340,7 @@ place in February at NIT Silchar campus in 2020.
                     <div class="col-sm-6 d-flex justify-content-center"><button style="color:#212d74;background-color: #fff" class="btn button-committee">BACKGROUND GUIDE</button></div>
                 </div>
                 <div class="line-bottom" 
-                style="width:80px;height:10px;/*background-color:#212d74;*/ background: #234271e6;margin-top:10%;margin-left:calc(50% - 40px)"></div>
+                style="width:80px;height:10px;background: #234271e6;margin-top:10%;margin-left:calc(50% - 40px)"></div>
               
       </div>
         
@@ -413,14 +425,14 @@ place in February at NIT Silchar campus in 2020.
             
     <!--  team ends ***********************-->
    <!-- *********************footer ********************* -->
-    <footer style="background:#343a40;padding-left:1rem">
+     <footer style="background:#343a40;padding-left:1rem">
      <div class="row no-gutters">
-     	<div class="col-md-4">
-     		 <div class="brand"><img class="rounded-circle" id="image" src="images/logo white1.png" width="150px" height="150px" style="margin-top:15%;align-items:center;margin-left:10%;"></div>
-     	</div>
-       <div class="col-md-4 quicklinks" style="background:#343a40;">
+      <div class="col-md-4">
+         <div class="brand brand1"><img class="rounded-circle mobile-view" id="image" src="images/logo white1.png" width="150px" height="150px" style="margin-top:15%;align-items:center;"></div>
+      </div>
+       <div class="col-md-4 quicklinks text-view" style="background:#343a40;">
         <h3 style="padding:2rem 0px 0.5rem 1rem">Quick Links</h3>
-        <ul class="quicklinks" style="text-align:justify;display: flex;flex-direction: column;">
+        <ul class="quicklinks text-view" style="display: flex;flex-direction: column;">
            <li><a href="index.html">Home</a></li>
            <li><a href="#aboutus">About Us</a></li>
            <li><a href="#committees">Committees</a></li>
@@ -430,7 +442,7 @@ place in February at NIT Silchar campus in 2020.
          </ul>
        </div>
        <div class="col-md-4">
-          <div class="containerS">
+          <div class="containerS text-view">
               <div class="wrapper animated bounceInLeft row no-gutters">
                 <div class="company-info col-md-12">
                     <h3 style="padding-left: 1rem;">Contact Us</h3>
@@ -459,7 +471,6 @@ place in February at NIT Silchar campus in 2020.
           <img src="images/top_up.png" style="display:none;" class="nav_up" id="nav_up"></div>
      </div>
     </footer>
-
 
 
     <!--  -->
@@ -557,7 +568,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("days").innerHTML = "EXPIRED";
+    document.getElementById("countdown-container").style.display="none";
   }
 }, 1000);
 </script>

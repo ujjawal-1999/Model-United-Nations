@@ -15,6 +15,18 @@
       text-decoration: none;
       color:white;
     }
+    .mobile-view{
+    	margin-left:10%;
+    }
+    @media screen and (max-width:768px){
+   	  .brand{
+      position: relative;
+      margin-left: 25%;
+    }
+    .text-view{
+    	text-align:center;
+    }
+}
   </style>
 </head>
 <body data-aos-easing="ease-in-sine" data-aos-duration="4000" style="background-color:#ffc0cb24">
@@ -54,7 +66,7 @@
                 <h2>Delegate</h2>
                </div>
                <div class="back d-flex justify-content-center align-items-center">
-                 <button class="btn"><a href="register_eb.html">Delegate</a></button>
+                 <button class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf-lPbJFRcMXK-ae3bwgPuQfwcNe8pzF7S2im27c1NebI5oOQ/viewform?embedded=true" target="_parent" style="font-size:2rem;font-weight:700;">Apply</a></button>
                </div>
          </div>
       </div>
@@ -68,11 +80,11 @@
     <footer style="background:#343a40;padding-left:1rem">
      <div class="row no-gutters">
       <div class="col-md-4">
-         <div class="brand"><img class="rounded-circle" id="image" src="images/logo white1.png" width="150px" height="150px" style="margin-top:15%;align-items:center;margin-left:10%;"></div>
+         <div class="brand brand1"><img class="rounded-circle mobile-view" id="image" src="images/logo white1.png" width="150px" height="150px" style="margin-top:15%;align-items:center;"></div>
       </div>
-       <div class="col-md-4 quicklinks" style="background:#343a40;">
+       <div class="col-md-4 quicklinks text-view" style="background:#343a40;">
         <h3 style="padding:2rem 0px 0.5rem 1rem">Quick Links</h3>
-        <ul class="quicklinks" style="text-align:justify;display: flex;flex-direction: column;">
+        <ul class="quicklinks text-view" style="display: flex;flex-direction: column;">
            <li><a href="index.html">Home</a></li>
            <li><a href="#aboutus">About Us</a></li>
            <li><a href="#committees">Committees</a></li>
@@ -82,7 +94,7 @@
          </ul>
        </div>
        <div class="col-md-4">
-          <div class="containerS">
+          <div class="containerS text-view">
               <div class="wrapper animated bounceInLeft row no-gutters">
                 <div class="company-info col-md-12">
                     <h3 style="padding-left: 1rem;">Contact Us</h3>

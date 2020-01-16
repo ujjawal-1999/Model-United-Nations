@@ -20,7 +20,7 @@
 		display:flex;
 		justify-content:center;
 		width:90%;
-		margin-left:auto;
+		margin-left:-9%;
 	}
 }
 .preload::before{
