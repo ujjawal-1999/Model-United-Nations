@@ -12,7 +12,14 @@
             }
         })
     })
-
+    
+$(window).load(function(){
+        $(".typing").typed({
+            strings: ["Welcome Back", "To this edition of", "NITS MUN"],    /* You can change the home section typing text from
+	                                                                                            here and do not use "&" use "and" */
+            typeSpeed: 100
+          });
+         });
 
     /*==================================================================
     [ Validate ]*/

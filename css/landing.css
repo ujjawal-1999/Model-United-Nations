@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Karla:400i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Caveat|Playfair+Display|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Pacifico|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fruktur|Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Poiret+One|Titillium+Web&display=swap')
 html
 {
   scroll-behavior: smooth;
@@ -25,12 +28,13 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   /*font-family: "Noto Sans", sans-serif;*/
-  font-family: 'Crete Round',sans-serif!important;
+  font-family: 'Bebas Neue', !important;
+font-weight: bold;
   }
 p,a
 {
   /*font-family: "Noto Sans", sans-serif!important;*/
-  font-family: 'Playfair',sans-serif!important;
+  font-family: 'Bebas Neue',!important;
 }
 .text-style{
   color:white;
@@ -331,6 +335,14 @@ header
 
 @media(max-width:990px)
 {
+  .edition{
+    font-size:9rem!important;
+    line-height:7rem!important;
+    /*margin-top:calc(50vh - 8rem)!important;*/
+  }
+  .text1{
+    font-size:2rem!important;
+  }
 }
 
 .edition
@@ -378,12 +390,30 @@ header
 }
 @media(max-width: 568px)
 {
+  .text{
+    margin-top:4rem;
+  }
+.text,.text1
+{
+  font-size:3rem!important;
+  line-height:3rem!important;
+  
+}
+}
+.outside{
+    position: relative;
+}
+.main_name {
+    position: absolute;
+    bottom: 20px;
+    
 }
 .text ,.text1
 {
 animation-name:show;
 z-index: 0!important;
-color:rgba(35, 66, 113, 0.9);
+color:#fff;
+font-family: 'Lobster';
 animation-iteration-count: 1;
 animation-duration:4s;
 opacity:1;
@@ -479,7 +509,8 @@ opacity:1;
 {
 animation-name:show;
 z-index: 0!important;
-color:rgba(35, 66, 113, 0.9);
+color:#fff;
+font-family: 'Josefin Sans';
 animation-iteration-count: 1;
 animation-duration:4s;
 opacity:1;
@@ -542,7 +573,6 @@ opacity:1;
 .button-committee
 {
   border-radius:2px;
-  border:2px solid #000!important;
   background:transparent;
   margin-top:20px;
   font-size:0.95rem;
@@ -684,7 +714,6 @@ font-size:40px;
 color:#0a1345;
 text-align:center;
 padding:0 0 4% 0;
-text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
 }
 .button-team:hover
 {
@@ -789,8 +818,7 @@ ul{
 
 .contact form button{
   /*background:#3949ab;*/
-  background:rgba(255, 87, 51, 0.84);
-  border:2px solid rgba(255, 87, 51, 0.84);
+  background:#3949ab;
   /*border:0;*/
   text-transform: uppercase;
 }
@@ -957,7 +985,7 @@ ul{
   flex-grow: 1;
 }
 .item .details > div {
-  border: 1px solid #232b50;
+  border: 0.5px solid #666;
   border-radius: 0.5em;
   padding: 1.5em;
   margin: 1em 0;
@@ -1005,3 +1033,4 @@ ul{
   z-index: 1000;
   }
 }
+

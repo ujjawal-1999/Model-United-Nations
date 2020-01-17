@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Karla:400i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Caveat|Playfair+Display|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Pacifico|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Poiret+One|Titillium+Web&display=swap');
+
 ::-moz-selection {
   background: #000;
   color: #fff; }
@@ -24,12 +26,13 @@ html{
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   /*font-family: "Noto Sans", sans-serif;*/
-  font-family: 'Crete Round',sans-serif!important;
+  font-family: 'Bebas Neue', !important;
+font-weight: bold;
   }
 p,a
 {
   /*font-family: "Noto Sans", sans-serif!important;*/
-  font-family: 'Playfair',sans-serif!important;
+  font-family: 'Bebas Neue',!important;
 }
 /*h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -99,11 +102,10 @@ box-shadow: 10px 10px 30px rgba(0,0,0,0.50);
     letter-spacing: 1.2px;
     word-spacing: 1.2px;
   }
-  @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
 body {
   margin: 0;
   padding:0;
-  font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   overflow-x:hidden;
   background-size: cover;
@@ -125,21 +127,21 @@ body {
     position:relative;
     right:5%;
   }
-  .hamburger{
+   .hamburger{
     position:absolute;
     top:50%;
     transform: translate(-5%,-50%);
     cursor:pointer;
-    right:0%;
+    right:0;
     z-index : 2 ;
   }
   .navbar-list{
     overflow-x: hidden;
     position: absolute;
-   background:rgba(35, 66, 113, 0.9);
+   background: rgba(35, 66, 113, 0.9);
     background-size: cover;
     height: 50vh;
-    width:105%;
+    width:100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -151,7 +153,7 @@ body {
   .navbar-list.open{
     clip-path: circle(1050px at 90% -20%);
     -webkit-clip-path:circle(1050px at 90% -20%);
-    z-index: 3;
+    z-index: 1000;
   }
   .tagline{
     display:none;
@@ -291,7 +293,6 @@ body {
       right: 0;
       bottom: 0;
       top: 0;
-      background: rgba(0, 0, 0, 0.6);
       z-index: 1;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;

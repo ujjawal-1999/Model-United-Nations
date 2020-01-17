@@ -8,6 +8,10 @@
 	top:0;
 	width:100%;
 	height:100vh;
+	/*background-image:url('images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;*/
 	background-color: #212d74;
 	display: flex;
 	justify-content: center;
@@ -15,13 +19,13 @@
     transition: opacity 0.5s ease;
     z-index:2000;
 }
-@media (orientation:portrait){
-	.preload{
-		display:flex;
-		justify-content:center;
-		width:90%;
-		margin-left:-9%;
-	}
+@media (orientation: portrait){
+    .preload{
+        display:flex;
+        justify-content: center;
+        width: 90%;
+        margin-left: -9%;
+    }
 }
 .preload::before{
 	content: "";
