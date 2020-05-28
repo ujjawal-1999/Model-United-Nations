@@ -3,7 +3,7 @@
 <head>
   <meta name="description" content="Create a digital Story">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link rel="icon" type="image/icon" href="images/logo_white.png">
   <link rel="stylesheet" type="text/css" href="css/preload.css">
   <link rel="stylesheet" type="text/css" href="css/landing.css">
@@ -49,14 +49,15 @@
   background-size:cover;
   background-image:
   url('images/nitsmun22.jpg');background-repeat:no-repeat;background-color:#212D74;background-position:center;min-height:100vh;width:100%;margin-top: -1px;">
+<div class="topbar">
     <nav id="myID">
     <div class="hamburger"> 
       <div class="line1"></div>
       <div class="line1"></div>
       <div class="line1"></div>
     </div>
-<div class="container-style" style="height:12vh;">
-  <div class="brand"><img class="rounded-circle" id="image" src="images/logo white1.png" width="90px" style="padding-bottom:12px;margin-left:7%;"></div>
+<div class="container-style" style="height:10vh;">
+  <div class="brand"><img class="rounded-circle" id="image" src="images/logo white1.png" width="90px" style="margin-bottom:20px;margin-left:20%;"></div>
   <div class="tagline">
     <!-- <span class="tagline-style">NIT Silchar</span>
     <span class="tagline-base">Model United Nations</span> -->
@@ -73,7 +74,9 @@
   </div>
 </div>
 </nav> 
-      
+</div>
+
+<div class="everythingexcepttopbar">
  <div class="outside" style="height:100vh;text-align:center;width:100%;background-position:center;background-repeat:no-repeat;background-size:25vh;">
 <img src="images/incandlogo2.png" style="text-align:center;width:auto;height:100px;padding-top:2%;">
   <h6 style="text-align: center;color: #fff;padding-top:1%;">Presents</h6>
@@ -505,7 +508,7 @@ place in February at NIT Silchar campus in 2020.
           <img src="images/top_up.png" style="display:none;" class="nav_up" id="nav_up"></div>
      </div>
     </footer>
-
+</div>
 
 
     <!--  -->
@@ -525,22 +528,12 @@ if(window.innerWidth > 768){
 }
   </script>
 <script>
-  const hamburger = document.querySelector('.hamburger');
+  const topbar = document.querySelector('.topbar');
   const navbarList = document.querySelector('.navbar-list');
   const links = document.querySelectorAll('.navbar-list li');
   const brand = document.querySelector('.brand');
-  hamburger.addEventListener("click",()=>{
+  topbar.addEventListener("click",()=>{
       navbarList.classList.toggle("open");
-      if(brand.style.display === "none")
-      { 
-        setTimeout(()=>{
-             brand.style.display = "flex";
-        },1000);
-       }
-      else
-      {
-           brand.style.display = "none";
-      }
   });
   $('.navbarList ')
 </script>
