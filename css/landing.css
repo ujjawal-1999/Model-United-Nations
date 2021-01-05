@@ -50,14 +50,6 @@ p,a
 *, *::before, *::after {
   box-sizing: border-box;
 }
-.topbar{
-	top: 0;
-	position: fixed;
-	z-index: 1000;
-}
-.everythingexcepttopbar{
-	margin-top: 10vh;
-}
 .container-style{
     width: 100%;
 display: grid;
@@ -66,7 +58,8 @@ grid-template-rows: 100px;
 justify-content: center;
 align-items: center;
 z-index: 100;
-background:rgba(35, 66, 113, 1);
+background:rgba(35, 66, 113, 0.9);
+position: fixed;
 box-shadow: 10px 10px 30px rgba(0,0,0,0.50);
 margin-top: -2px;
 }
@@ -154,9 +147,7 @@ body
    background: rgba(35, 66, 113, 0.9);
     background-size: cover;
     height: 50vh;
-    width:110%;
-    top:10vh;
-    right: -7vh;
+    width:100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -166,8 +157,6 @@ body
     z-index:2;
   }
   .navbar-list.open{
-    z-index: 1000;
-    opacity: 90%;
     clip-path: circle(1050px at 90% -20%);
     -webkit-clip-path:circle(1050px at 90% -20%);
     z-index: 1000;
