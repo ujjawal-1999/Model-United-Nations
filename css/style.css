@@ -21,8 +21,16 @@ a {
   }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-
+/*  */
+.row1{
+  display: flex;
+}
+/* .row2{
+  display: flex;
+} */
+/*  */
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   /*font-family: "Noto Sans", sans-serif;*/
@@ -47,7 +55,17 @@ p,a
   .text-style{
     font-size:18px;
   }
+  /* .judges{
+    margin-left: auto;
+    margin-right: auto;
+  } */
 }
+/* @media screen and (max-width: 1300px){
+  .judges{
+    margin-left: auto;
+    margin-right: auto;
+  }
+} */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -267,6 +285,9 @@ body {
     -o-transition: all 1s ease 0s;
     transition: all 1s ease 0s
 }
+/*  */
+
+/*  */
 .main-content {
   float: left;
   width: calc(100% - 250px); }
@@ -364,3 +385,54 @@ body {
     {
       width:0;
     }
+  @media screen and (max-width:768px){
+  .row1{
+   display: block;
+    }
+    /* .row2{
+      display: block;
+    } */
+  }
+
+  /* changes */
+
+   @media screen and (min-width: 700px){
+    /* .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .card-team{
+        margin-right: 3vh;
+        transition: transform .5s;
+    }
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }  
+        to{
+            opacity: 1;
+        }    */
+     }   
+
+    .judg:nth-child(1){
+    animation: fadeIn .5s .5s backwards;
+    }
+     .judg:nth-child(2){
+    animation: fadeIn .5s .1s backwards;
+    }
+    .judg:nth-child(3){
+    animation: fadeIn .5s .1.5s backwards;
+    } 
+    
+    .judg:hover{
+        transform: scale(1.1)
+    } 
+    
+}
+
+    
+    
